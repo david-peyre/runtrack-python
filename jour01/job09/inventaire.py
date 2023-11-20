@@ -1,4 +1,4 @@
-divice = "ordinateur"
+device = "ordinateur"
 price = 1000
 quantity = 500
 
@@ -20,6 +20,6 @@ price = price * 1.10
 print("Du fait de l'inflation, le nouveau prix unitaire d'un ordinateur est de", price, "euros")
 
 print("Inventaire mis à jour :")
-print("article :", divice)
+print("article :", device)
 print("prix :", price, "euro")
 print(quantity, "article(s) restant en stock") 
