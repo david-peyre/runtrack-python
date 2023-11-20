@@ -23,4 +23,4 @@ rate = rate - 1
 annual_return = (rate / 100) * invest
 invest = invest + annual_return
 print("Suite à quoi le rendement diminue de 1 %, il est donc désormais de", rate, "%, de sorte que son retour sur investissemnt à l'année est à présent de", annual_return, "euros")
-print("De sorte qu'à la fin de cette année le montant de son investissemnt sera de", invest, "euros")
+print("Ainsi, à la fin de cette année, le montant de son investissemnt sera de", invest, "euros")
