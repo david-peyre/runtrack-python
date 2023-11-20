@@ -6,12 +6,12 @@ print("article =", divice)
 print("prix =", price, "euros")
 print(quantity, "articles en stock")
 
-amount = int(input("Quelle quantité d'ordinateur voulez vous acheter ?"))
-transacprice = price * amount
+purchase = int(input("Quelle quantité d'ordinateur voulez vous acheter ?"))
+transacprice = price * purchase
 
-if amount<=quantity:
+if purchase<=quantity:
     print("Le montant de la transactione est de", transacprice, "euros")
-    quantity = quantity - amount
+    quantity = quantity - purchase
     print ("Il y a désormais", quantity, "ordinateurs en stock")
 else:
     print("Il n'y a pas suffisament d'acticles en stock pour effectuer cette transaction")
