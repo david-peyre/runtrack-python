@@ -2,13 +2,13 @@ while True:
     try:
         N = int(input("Entrer un entier supérieur à zéro (N) : "))
         if N <= 0:
-            print("Veuillez entrer un entier supérieur à zéro.")
+            print("Entrer un entier supérieur à zéro")
         else:
             break
     except ValueError:
-        print("Veuillez entrer un nombre entier valide.")
+        print("Entrer un nombre entier valide.")
 
-print(f"\nTables de multiplication de 1 à {N} :\n")
+print(f"Tables de multiplication de 1 à {N} :")
 
 for i in range(1, N + 1):
     print(f"Table de multiplication de {i} :")

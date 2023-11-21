@@ -1,3 +1,3 @@
-for nombre in range(101):
-    if nombre not in [26, 37, 88]:
-        print(nombre)
+for n in range(0, 101):
+    if n != 26 and n!= 37 and n!= 88:
+        print(n)
