@@ -10,6 +10,7 @@ def fonction(language):
     else:
         print("un jour, je serai le meilleur développeur...")
     
+# Exemples d'appels de la fonction
 fonction("JavaScript")
 fonction("python")
 fonction("java")

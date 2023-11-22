@@ -6,6 +6,7 @@ def fonction(nombre):
     elif nombre == 0:
         print("nul")
     
+# Exemples d'appels de la fonction
 fonction(-1)
 fonction(1)
 fonction(0)
